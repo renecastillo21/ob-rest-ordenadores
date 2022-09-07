@@ -28,7 +28,7 @@ public class LaptopController {
     //Listar lista de libros
     @GetMapping("/api/laptops")
     public List<Laptop> findall(){
-        return laptopRepository.findAll();
+        return laptopRepository.findAll(); //devolver todos los libros
     }
 
     //Crear una nueva entrada de laptop en base de datos

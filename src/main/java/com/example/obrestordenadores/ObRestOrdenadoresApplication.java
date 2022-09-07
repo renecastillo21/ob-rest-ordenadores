@@ -22,7 +22,7 @@ public class ObRestOrdenadoresApplication {
 		Laptop laptop2 = new Laptop(null,"SAMSUNG","Chromebook 4","Chromebook 4 11'","Titanio platino",125.46);
 		Laptop laptop3 = new Laptop(null,"Apple","MacBook Air","MacBook Air 2020","Gris espacial",899.00);
 
-
+		//Guardar Datos
 		repository.save(laptop1);
 		repository.save(laptop2);
 		repository.save(laptop3);
